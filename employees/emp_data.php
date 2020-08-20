@@ -99,7 +99,7 @@ class Employee
 		//Run query using the query function in includes/database.php
 		$r = $database->query($q) or die("Error getting user details ".__LINE__.mysql_error());
 		
-		//In this case, $r is an associative array containing the records we want to retrieve
+		//In this case, $r is an associative array containing the records we want to retrieve.
 		return $r;
 	}
 	
